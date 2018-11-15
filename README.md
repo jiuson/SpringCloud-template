@@ -6,6 +6,10 @@
 <ul>
 <li>注册中心搭建步骤：https://blog.csdn.net/u011063151/article/details/84061620</li>
 </ul>
-
+<h2>2、springcloud2.0-yipinketang-eureka-client是Eureka客户端服务</h2>
+<ul>
+<li>Eureka客户端搭建步骤：https://blog.csdn.net/u011063151/article/details/84068307</li>
+<li>Eureka客户端注册到Eureka注册中心</li>
+</ul>
 
 <p>待续......</p>
