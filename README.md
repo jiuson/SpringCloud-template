@@ -17,7 +17,7 @@
 <li>Eureka客户端搭建步骤：https://blog.csdn.net/u011063151/article/details/84068307</li>
 <li>Eureka客户端注册到Eureka注册中心</li>
 </ul>
-<h2>4、微服务调用</h2>
+<h2>4、微服务调用 RestTemplate和FeignClient</h2>
 <ul>这一节主要搭建了两个微服务模块：</br>
   <li>服务的提供方：springcloud2.0-yipinketang-provider-service</li>
   <li>服务的调用方：springcloud2.0-yipinketang-consumer-service</li>
