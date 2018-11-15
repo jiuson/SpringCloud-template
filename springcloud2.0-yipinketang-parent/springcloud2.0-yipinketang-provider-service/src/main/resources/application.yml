@@ -1,12 +1,12 @@
 ####服务启动端口号
 server:
-  port: 8020
+  port: 8021
 spring:
   ####启动加载配置文件
-  profiles: peer1
+  #profiles: peer1
   application:
     ####当前应用服务的名称
-    name: eureka-server
+    name: provider-service
 eureka:
   client:
     serviceUrl:

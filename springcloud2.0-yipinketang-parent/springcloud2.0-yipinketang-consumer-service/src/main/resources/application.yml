@@ -3,10 +3,10 @@ server:
   port: 8030
 spring:
   ####启动加载配置文件
-  profiles: peer1
+  #profiles: peer1
   application:
     ####当前应用服务的名称
-    name: eureka-server
+    name: consumer-service
 eureka:
   client:
     serviceUrl:
