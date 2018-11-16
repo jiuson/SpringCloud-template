@@ -19,3 +19,13 @@ eureka:
     registerWithEureka: true
     ####获取eureka注册中心上的服务列表，默认为true（同上面的属性一起一起使用）
     fetchRegistry: true
+####设置fegin客户端超时时间
+ribbon:
+  ####指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  ####指的是建立连接后从服务器读取到可用资源的时间
+  ConnectTimeout: 5000
+####开启Hystrix断路器
+fegin:
+  hystrix:
+    enable: true
