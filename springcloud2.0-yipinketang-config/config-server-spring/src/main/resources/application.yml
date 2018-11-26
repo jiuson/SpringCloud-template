@@ -1,0 +1,14 @@
+server:
+  port: 9000
+spring:
+  profiles: dev
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wjzuo/SpringCloud2.0.git
+          search-paths: springcloud2.0-yipinketang-config/springcloud-config-properties/
+          username: #公共仓库不用填写
+          password: #公共仓库不用填写
