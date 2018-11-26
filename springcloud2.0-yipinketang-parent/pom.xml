@@ -13,6 +13,7 @@
         <module>springcloud2.0-yipinketang-eureka-client</module>
         <module>springcloud2.0-yipinketang-provider-service</module>
         <module>springcloud2.0-yipinketang-consumer-service</module>
+        <module>springcloud2.0-yipinketang-config-parent</module>
     </modules>
 
     <parent>
