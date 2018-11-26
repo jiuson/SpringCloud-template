@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springcloud2.0-yipinketang-config-server</module>
+        <module>springcloud2.0-yipinketang-config-client</module>
     </modules>
 
     <dependencies>
