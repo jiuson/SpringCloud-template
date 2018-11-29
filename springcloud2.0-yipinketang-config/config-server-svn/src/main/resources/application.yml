@@ -10,5 +10,5 @@ spring:
       server:
         svn:
           uri: http://svn.com #svn地址
-          username: #公共仓库不用填写
-          password: #公共仓库不用填写
+          username: #svn用户名
+          password: #svn密码
