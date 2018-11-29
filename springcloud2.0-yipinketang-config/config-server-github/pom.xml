@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yipinketang.springcloud</groupId>
-    <artifactId>config-server-spring</artifactId>
+    <artifactId>config-server-github</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
