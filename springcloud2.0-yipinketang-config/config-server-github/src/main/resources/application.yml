@@ -6,10 +6,11 @@ spring:
     name: configServer
   cloud:
     config:
+      label: master #仓库分支
       server:
         git:
           uri: https://github.com/wjzuo/SpringCloud2.0.git
-          search-paths: springcloud2.0-yipinketang-config/springcloud-config-properties/
+          search-paths: springcloud2.0-yipinketang-config/springcloud-config-properties/ #仓库路径
           username: #公共仓库不用填写
           password: #公共仓库不用填写
 management:

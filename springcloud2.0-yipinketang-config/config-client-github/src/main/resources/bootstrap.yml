@@ -1,0 +1,12 @@
+server:
+  port: 9010
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-client
+  cloud:
+    config:
+      uri: http://localhost:9000
+      label: master #配置中心分支名称
+      name: config  #配置文件名称前缀
+      profile: dev  #配置文件名称后缀
