@@ -26,6 +26,13 @@
   <li>1、SpringBoot-web组件提供的RestTemplate </br> RestTemplate自带负载均衡能力，但要使用@LoadBalanced注解开启负载均衡</li> 
   <li>2、FeignClient </br> feign 自带负载均衡能力，断路器、服务降级、线程池隔离功能 (@FeignClient、@HystrixCommand)</li>
 </ul>
+
+<h2>5、微服务配置中心——SpringCloud config</h2>
+<ul>这一节主要搭建了两个微服务模块：</br>
+  <li>http://note.youdao.com/noteshare?id=16c9696422c93daecbf8d6e338d1f9f0</li>
+</ul>
+
+
   
   
   
