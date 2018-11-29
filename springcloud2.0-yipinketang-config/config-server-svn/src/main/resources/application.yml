@@ -1,0 +1,14 @@
+server:
+  port: 9000
+spring:
+  profiles: dev
+  application:
+    name: configServer
+  cloud:
+    config:
+      label: master #仓库分支
+      server:
+        svn:
+          uri: http://svn.com #svn地址
+          username: #公共仓库不用填写
+          password: #公共仓库不用填写
