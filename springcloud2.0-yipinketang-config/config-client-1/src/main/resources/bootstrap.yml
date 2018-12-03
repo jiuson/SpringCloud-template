@@ -10,3 +10,8 @@ spring:
       label: master #配置中心分支名称
       name: config  #配置文件名称前缀
       profile: dev  #配置文件名称后缀
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
