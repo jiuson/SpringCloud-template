@@ -1,0 +1,25 @@
+####服务启动端口号
+server:
+  port: 8761
+####eureka基本信息配置
+####当前应用服务的名称
+spring:
+  ####启动加载配置文件
+  profiles: dev
+  application:
+    name: eureka-server
+eureka:
+  instance:
+    ####注册中心|域名
+    hostname: localhost
+    #preferIpAddress: true
+  client:
+    serviceUrl:
+      ####注册中心地址(单节点)
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      ####注册中心地址(集群，填写其他节点地址)
+      #defaultZone: http://${eureka.instance.hostname}:8762/eureka/
+    ####因为自己是注册中心，是否需要将自己注册给自己的注册中心，（eureka集群的时候是需要设置为true）默认为true，所以eureka client端可以不设置此参数
+    registerWithEureka: false
+    ####获取eureka注册中心上的服务列表，默认为true（同上面的属性一起一起使用）
+    fetchRegistry: false
