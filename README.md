@@ -44,6 +44,10 @@
   <li>http://note.youdao.com/noteshare?id=fffdd08fbc86ef903d745d169d94563d</li>
 </ul>
   
+<h2>8、注册中心——consul</h2>
+<ul>
+  <li>http://note.youdao.com/noteshare?id=5612caf4a11b84159a2777c975212172</li>
+</ul>
   
   
   
