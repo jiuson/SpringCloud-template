@@ -10,3 +10,11 @@ spring:
       port: 8500
       discovery:
         service-name: producer
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
