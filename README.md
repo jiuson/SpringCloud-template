@@ -46,7 +46,7 @@
   
 <h2>8、注册中心——consul</h2>
 <ul>
-  <li>https://github.com/wjzuo/SpringCloud2.0/tree/master/SpringCloud-yipinketang-consul</li>
+  <li>https://github.com/wjzuo/SpringCloud2.0/tree/master/SpringCloud-consul</li>
   <li>http://note.youdao.com/noteshare?id=5612caf4a11b84159a2777c975212172</li>
 </ul>
   
