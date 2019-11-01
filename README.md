@@ -28,6 +28,7 @@
 </ul>
 <ul>知识点：
   <li>1、使用FeignClient调用微服务，如何把前端请求的request传到下一个服务？</li>
+  <li>http://note.youdao.com/noteshare?id=4a2734942ee8114657aa40df6d999f03&sub=B7CA90A56CA14B40A00EA03BFA6BF675</li>
 </ul>
 
 <h2>5、微服务配置中心——SpringCloud config</h2>
