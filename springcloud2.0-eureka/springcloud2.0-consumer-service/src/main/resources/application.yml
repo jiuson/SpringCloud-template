@@ -1,6 +1,6 @@
 ####服务启动端口号
 server:
-  port: 8030
+  port: ${consumer.service.port}
 spring:
   ####启动加载配置文件
   #profiles: peer1
@@ -11,7 +11,7 @@ eureka:
   client:
     serviceUrl:
       ####注册中心地址(单节点)
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://${eureka.instance.host}:${eureka.server.port}/eureka/
       ####注册中心地址(集群，填写其他节点地址，这里需要注意的是，即时写了集群注册中心的多个地址，默认只会在第一个地址对应的注册中心的web页面看到这个服务，
       ####因为集群注册中心共享同一份服务列表，但是同时只有一个注册中心监控该服务，所以使用单点注册配置即可)
       #defaultZone: http://${eureka.instance.hostname}:8762/eureka/

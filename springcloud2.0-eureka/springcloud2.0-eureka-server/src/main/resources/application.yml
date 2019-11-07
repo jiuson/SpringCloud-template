@@ -1,14 +1,17 @@
 ####服务启动端口号
 server:
-  port: 8761
+  port: ${eureka.server.port}
 ####eureka基本信息配置
 ####当前应用服务的名称
 spring:
   ####启动加载配置文件
-  profiles: peer1
+  #profiles: peer1
   application:
     name: eureka-server
 eureka:
+  server:
+    ##关闭eureka注册中心自我保护机制
+    enable-self-preservation: false
   instance:
     ####注册中心|域名
     hostname: localhost

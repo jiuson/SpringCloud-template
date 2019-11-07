@@ -1,5 +1,6 @@
 package com.yipinketang.consumer.controller;
 
+import com.yipinketang.consumer.feign.ProviderFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -75,6 +77,15 @@ public class ConsumerController {
         // 如果RestTemplate开启了@LoadBalanced负载均衡器，则这里使用serviceId是可以的
         //String url = "http://" + serviceId + "/getProviderService";
         result += restTemplate.getForObject(url, String.class);
+        return result;
+    }
+
+    @Autowired
+    private ProviderFeignClient providerFeignClient;
+    @GetMapping("/getByFeignClient")
+    public String getByFeignClient(HttpServletRequest request){
+
+        String result = providerFeignClient.getProviderService();
         return result;
     }
 }
