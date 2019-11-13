@@ -13,6 +13,16 @@ eureka:
     ####获取eureka注册中心上的服务列表，默认为true（同上面的属性一起一起使用）
     fetchRegistry: true
 zuul:
+  #关闭所有默认路由配置规则
+  ignored-services: *
+  #前缀配置：为网关的请求路径添加前缀
+  prefix: /zuul-gateway
+  #将下面的参数配置为空，代表关闭所有服务默认头部敏感信息过滤（原因：Zuul默认会过滤掉HTTP请求头中的一些铭感信息）
+  sensitive-headers:
+  #解决重定向问题
+  add-host-header: true
+  #线程隔离策略
+  ribbon-isolation-strategy: thread
   #路由配置规则
   routes:
     api-provider:
@@ -33,12 +43,4 @@ zuul:
       path: /api-gateway/**
       #本地跳转：将请求跳转到网关服务本身
       url: forward:/test
-  #关闭所有默认路由配置规则
-  ignored-services: *
-  #前缀配置：为网关的请求路径添加前缀
-  prefix: /zuul-gateway
-  #将下面的参数配置为空，代表关闭所有服务默认头部敏感信息过滤（原因：Zuul默认会过滤掉HTTP请求头中的一些铭感信息）
-  sensitive-headers:
-  #解决重定向问题
-  add-host-header: true
 
