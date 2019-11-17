@@ -1,17 +1,26 @@
 ####服务启动端口号
 server:
-  port: 8010
+  port: 8040
+#  port: ${consumer.service.port}
 spring:
   ####启动加载配置文件
-  profiles: peer1
+  #profiles: peer1
   application:
     ####当前应用服务的名称
-    name: eureka-server
+    name: consumer-service
+  sleuth:
+    sampler:
+      #链路追踪采样率
+      probability: 1
+  zipkin:
+    #Zipkin监控地址
+    base-url: http://127.0.0.1:9000
 eureka:
   client:
     serviceUrl:
       ####注册中心地址(单节点)
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://127.0.0.1:8010/eureka/
+#      defaultZone: http://${eureka.instance.host}:${eureka.server.port}/eureka/
       ####注册中心地址(集群，填写其他节点地址，这里需要注意的是，即时写了集群注册中心的多个地址，默认只会在第一个地址对应的注册中心的web页面看到这个服务，
       ####因为集群注册中心共享同一份服务列表，但是同时只有一个注册中心监控该服务，所以使用单点注册配置即可)
       #defaultZone: http://${eureka.instance.hostname}:8762/eureka/
@@ -19,3 +28,13 @@ eureka:
     registerWithEureka: true
     ####获取eureka注册中心上的服务列表，默认为true（同上面的属性一起一起使用）
     fetchRegistry: true
+####设置fegin客户端超时时间
+ribbon:
+  ####指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  ####指的是建立连接后从服务器读取到可用资源的时间
+  ConnectTimeout: 5000
+####开启Hystrix断路器
+fegin:
+  hystrix:
+    enable: true

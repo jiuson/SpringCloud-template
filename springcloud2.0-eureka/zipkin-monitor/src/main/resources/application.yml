@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: zipkin-server
+management:
+  metrics:
+    web:
+      server:
+        #zipkin启动报错无法访问的问题
+        auto-time-requests: false
