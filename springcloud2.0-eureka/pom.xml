@@ -13,6 +13,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.M1</spring-cloud.version>
+        <spring-cloud-alibaba.version>0.9.0.RELEASE</spring-cloud-alibaba.version>
     </properties>
 
     <parent>
@@ -31,6 +32,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -42,6 +50,7 @@
         <module>springcloud2.0-yipinketang-eureka-client</module>
         <module>springcloud2.0-yipinketang-consumer-service</module>
         <module>zipkin-monitor</module>
+        <module>spring-cloud-stream-rocketmq</module>
     </modules>
 
     <repositories>
