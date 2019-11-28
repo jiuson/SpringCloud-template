@@ -7,9 +7,13 @@ spring:
     stream:
       rocketmq:
         binder:
-          name-server: 127.0.0.1:9876
+          name-server: 47.111.136.90:9876
+        bindings:
+          output1:
+            producer:
+              group: test-group-1
       bindings:
-        output: {destination: test-topic}
+        output1: {destination: test-topic-1}
 eureka:
   client:
     serviceUrl:

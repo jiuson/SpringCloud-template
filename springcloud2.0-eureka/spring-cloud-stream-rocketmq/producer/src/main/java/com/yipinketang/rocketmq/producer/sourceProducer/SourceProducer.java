@@ -21,7 +21,7 @@ import java.util.Map;
 public class SourceProducer {
 
     @Autowired
-    private Source source;
+    private RocketSource rocketSource;
 
     public void sendMessage(String msg) {
         String payload = msg;
@@ -29,6 +29,6 @@ public class SourceProducer {
         headers.put(MessageConst.PROPERTY_TAGS, "testTag");
         MessageHeaders messageHeaders = new MessageHeaders(headers);
         Message<String> message = MessageBuilder.createMessage(payload, messageHeaders);
-        this.source.output().send(message);
+        this.rocketSource.output().send(message);
     }
 }

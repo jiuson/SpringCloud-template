@@ -1,10 +1,10 @@
 package com.yipinketang.rocketmq.producer;
 
+import com.yipinketang.rocketmq.producer.sourceProducer.RocketSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.stream.annotation.EnableBinding;
-import org.springframework.cloud.stream.messaging.Source;
 
 /**
  * description: AppProducer <br>
@@ -12,12 +12,12 @@ import org.springframework.cloud.stream.messaging.Source;
  * author: jiuson <br>
  * version: 1.0 <br>
  */
-@EnableBinding(Source.class)
+@EnableBinding(RocketSource.class)
 @EnableEurekaClient
 @SpringBootApplication
-public class AppProducer {
+public class AppRocketMQProducer {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppProducer.class, args);
+        SpringApplication.run(AppRocketMQProducer.class, args);
     }
 }
