@@ -11,6 +11,7 @@ import zipkin2.server.internal.EnableZipkinServer;
  * version: 1.0 <br>
  */
 
+//@EnableEurekaClient
 @EnableZipkinServer
 @SpringBootApplication
 public class AppZipkinMonitor {
