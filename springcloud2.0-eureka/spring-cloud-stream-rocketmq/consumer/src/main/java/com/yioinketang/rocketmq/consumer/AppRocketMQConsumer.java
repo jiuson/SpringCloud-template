@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 
 /**
- * description: AppConsumer <br>
+ * description: AppRocketMQConsumer <br>
  * date: 2019/11/28 14:42 <br>
  * author: user <br>
  * version: 1.0 <br>
