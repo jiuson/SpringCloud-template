@@ -12,9 +12,9 @@ spring:
     sampler:
       #链路追踪采样率
       probability: 1
-    zipkin:
-      #Zipkin监控地址
-      base-url: http://127.0.0.1:9000
+  zipkin:
+    #Zipkin监控地址
+    base-url: http://127.0.0.1:9000
 eureka:
   client:
     serviceUrl:

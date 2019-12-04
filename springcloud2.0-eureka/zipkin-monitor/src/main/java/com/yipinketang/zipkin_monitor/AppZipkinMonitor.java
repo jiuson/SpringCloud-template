@@ -2,6 +2,7 @@ package com.yipinketang.zipkin_monitor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import zipkin2.server.internal.EnableZipkinServer;
 
 /**
@@ -11,7 +12,7 @@ import zipkin2.server.internal.EnableZipkinServer;
  * version: 1.0 <br>
  */
 
-//@EnableEurekaClient
+@EnableEurekaClient
 @EnableZipkinServer
 @SpringBootApplication
 public class AppZipkinMonitor {
