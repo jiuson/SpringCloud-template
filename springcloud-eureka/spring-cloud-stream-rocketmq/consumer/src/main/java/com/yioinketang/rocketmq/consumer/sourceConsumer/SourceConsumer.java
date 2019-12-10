@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * description: SourceConsumer <br>
  * date: 2019/11/28 14:50 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 @Component

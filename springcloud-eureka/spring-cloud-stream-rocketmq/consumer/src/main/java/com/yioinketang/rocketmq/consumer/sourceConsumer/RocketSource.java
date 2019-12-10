@@ -6,7 +6,7 @@ import org.springframework.messaging.SubscribableChannel;
 /**
  * description: RocketSource <br>
  * date: 2019/11/28 14:43 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 public interface RocketSource {

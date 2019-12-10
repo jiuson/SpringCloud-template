@@ -8,7 +8,7 @@ import zipkin2.server.internal.EnableZipkinServer;
 /**
  * description: AppZipkinMonitor <br>
  * date: 2019/11/13 16:08 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 //开启eureka客户端

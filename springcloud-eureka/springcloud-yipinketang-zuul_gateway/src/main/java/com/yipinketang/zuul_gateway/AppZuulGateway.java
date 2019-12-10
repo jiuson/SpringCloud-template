@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 /**
  * description: AppZuulGateway <br>
  * date: 2019/11/13 9:25 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 

@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * description: AppProvider_1 <br>
  * date: 2019/11/12 20:22 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 

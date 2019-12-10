@@ -9,7 +9,7 @@ import org.springframework.cloud.stream.annotation.EnableBinding;
 /**
  * description: AppRocketMQConsumer <br>
  * date: 2019/11/28 14:42 <br>
- * author: user <br>
+ * author: jiuson <br>
  * version: 1.0 <br>
  */
 
