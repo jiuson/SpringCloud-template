@@ -44,7 +44,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>springcloud-yipinketang-zuul_gateway</module>
         <module>springcloud-yipinketang-provider_1-service</module>
         <module>springcloud-yipinketang-provider-service</module>
         <module>springcloud-yipinketang-eureka-server</module>
@@ -52,6 +51,7 @@
         <module>springcloud-yipinketang-consumer-service</module>
         <module>zipkin-monitor</module>
         <module>spring-cloud-stream-rocketmq</module>
+        <module>gateway</module>
     </modules>
 
     <repositories>
