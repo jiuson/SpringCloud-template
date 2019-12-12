@@ -44,17 +44,26 @@
     </dependencyManagement>
 
     <modules>
-        <module>springcloud-yipinketang-provider_1-service</module>
-        <module>springcloud-yipinketang-provider-service</module>
-        <module>springcloud-yipinketang-eureka-server</module>
-        <module>springcloud-yipinketang-eureka-client</module>
-        <module>springcloud-yipinketang-consumer-service</module>
+        <!--模拟微服务被调用方（集群）服务模块-->
+        <module>provider_1_service</module>
+        <!--模拟微服务被调用方服务模块-->
+        <module>provider-service</module>
+        <!--eureka 注册中心-->
+        <module>eureka-server</module>
+        <!--eureka 微服务客户端模块-->
+        <module>eureka-client</module>
+        <!--模拟微服务调用方服务模块-->
+        <module>consumer-service</module>
+        <!--zipkin 链路监控模块-->
         <module>zipkin-monitor</module>
-        <module>spring-cloud-stream-rocketmq</module>
+        <!--spring cloud stream 消息系统集成模块 -->
+        <module>stream</module>
+        <!--网关模块-->
         <module>gateway</module>
     </modules>
 
     <repositories>
+        <!--spring 远程maven仓库-->
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
