@@ -1,0 +1,18 @@
+####服务启动端口号
+server:
+  port: 8020
+spring:
+  application:
+    ####当前应用服务的名称
+    name: provider-service
+  sleuth:
+    sampler:
+      #链路追踪采样率
+      probability: 1
+  zipkin:
+    #Zipkin监控地址
+    base-url: http://127.0.0.1:9000
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.88.92:8849

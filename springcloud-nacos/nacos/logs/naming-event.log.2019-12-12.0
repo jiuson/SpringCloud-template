@@ -1,0 +1,30 @@
+2019-12-12 09:56:02,307 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 09:56:02,307 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-12 09:56:02,389 INFO DEFAULT_GROUP@@payment-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10060:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 09:56:02,389 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-provide-service, ips: 
+
+2019-12-12 09:56:15,622 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:10010@DEFAULT@DEFAULT_GROUP@@user-provide-service, region: unknown, msg: client timeout after 15000, last beat: 1576115757684
+
+2019-12-12 09:56:30,628 INFO DEFAULT_GROUP@@user-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10010:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-12 09:56:30,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-provide-service, ips: 
+
+2019-12-12 10:41:19,945 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 10:41:19,945 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-12 10:41:41,874 INFO DEFAULT_GROUP@@payment-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10060:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 10:41:41,874 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-provide-service, ips: 192.168.88.92:10060_true,
+
+2019-12-12 10:42:23,361 INFO DEFAULT_GROUP@@learning-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 10:42:23,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@learning-provide-service, ips: 192.168.88.92:10020_true,
+
+2019-12-12 10:43:08,319 INFO DEFAULT_GROUP@@user-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10010:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-12 10:43:08,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-provide-service, ips: 192.168.88.92:10010_true,
+
