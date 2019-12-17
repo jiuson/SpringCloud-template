@@ -43,7 +43,9 @@
         <module>stream</module>
         <module>micro-service</module>
         <module>monitor</module>
-    </modules>
+		<module>redis</module>
+		<module>mongoDB</module>
+	</modules>
 
 	<repositories>
 		<!--spring 远程maven仓库-->
