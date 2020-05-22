@@ -1,6 +1,6 @@
-package com.yipinketang.stream.rocketmq.consumer;
+package com.jiuson.stream.rocketmq.consumer;
 
-import com.yipinketang.stream.rocketmq.consumer.sourceConsumer.RocketSource;
+import com.jiuson.stream.rocketmq.consumer.sourceConsumer.RocketSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;

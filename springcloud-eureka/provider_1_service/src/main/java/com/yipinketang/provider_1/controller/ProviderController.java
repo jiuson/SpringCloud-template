@@ -1,4 +1,4 @@
-package com.yipinketang.provider_1.controller;
+package com.jiuson.provider_1.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

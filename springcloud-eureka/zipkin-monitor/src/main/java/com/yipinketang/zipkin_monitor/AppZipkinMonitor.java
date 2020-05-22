@@ -1,4 +1,4 @@
-package com.yipinketang.zipkin_monitor;
+package com.jiuson.zipkin_monitor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

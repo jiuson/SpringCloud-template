@@ -1,4 +1,4 @@
-package com.yipinketang.stream.rocketmq.producer.sourceProducer;
+package com.jiuson.stream.rocketmq.producer.sourceProducer;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;

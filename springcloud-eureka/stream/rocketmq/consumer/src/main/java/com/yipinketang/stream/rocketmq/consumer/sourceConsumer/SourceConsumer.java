@@ -1,4 +1,4 @@
-package com.yipinketang.stream.rocketmq.consumer.sourceConsumer;
+package com.jiuson.stream.rocketmq.consumer.sourceConsumer;
 
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.stereotype.Component;

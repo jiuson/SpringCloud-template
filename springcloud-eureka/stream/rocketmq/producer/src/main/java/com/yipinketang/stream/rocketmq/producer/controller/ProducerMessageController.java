@@ -1,6 +1,6 @@
-package com.yipinketang.stream.rocketmq.producer.controller;
+package com.jiuson.stream.rocketmq.producer.controller;
 
-import com.yipinketang.stream.rocketmq.producer.sourceProducer.SourceProducer;
+import com.jiuson.stream.rocketmq.producer.sourceProducer.SourceProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

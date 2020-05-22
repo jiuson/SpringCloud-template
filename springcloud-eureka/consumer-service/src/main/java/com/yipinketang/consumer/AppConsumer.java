@@ -1,4 +1,4 @@
-package com.yipinketang.consumer;
+package com.jiuson.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

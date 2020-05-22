@@ -1,4 +1,4 @@
-package com.yipinketang.consumer.config;
+package com.jiuson.consumer.config;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

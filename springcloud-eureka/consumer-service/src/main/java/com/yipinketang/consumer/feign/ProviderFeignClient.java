@@ -1,6 +1,6 @@
-package com.yipinketang.consumer.feign;
+package com.jiuson.consumer.feign;
 
-import com.yipinketang.consumer.config.FeignConfiguration;
+import com.jiuson.consumer.config.FeignConfiguration;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.yipinketang.consumer.controller;
+package com.jiuson.consumer.controller;
 
-import com.yipinketang.consumer.feign.ProviderFeignClient;
+import com.jiuson.consumer.feign.ProviderFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

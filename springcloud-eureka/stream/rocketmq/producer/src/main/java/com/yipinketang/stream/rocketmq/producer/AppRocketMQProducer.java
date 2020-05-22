@@ -1,6 +1,6 @@
-package com.yipinketang.stream.rocketmq.producer;
+package com.jiuson.stream.rocketmq.producer;
 
-import com.yipinketang.stream.rocketmq.producer.sourceProducer.RocketSource;
+import com.jiuson.stream.rocketmq.producer.sourceProducer.RocketSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;

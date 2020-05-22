@@ -1,4 +1,4 @@
-package com.yipinketang.provider.controller;
+package com.jiuson.provider.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;

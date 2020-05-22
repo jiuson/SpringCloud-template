@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.yipinketang.springcloud</groupId>
-    <artifactId>springcloud-microservice</artifactId>
+    <groupId>com.jiuson.springcloud</groupId>
+    <artifactId>springcloud-eureka</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -13,7 +13,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.M1</spring-cloud.version>
-        <spring-cloud-alibaba.version>0.2.2.RELEASE</spring-cloud-alibaba.version><!--github上推荐的毕业版本依赖关系中Greenwich.M1对应2.1.1.RELEASE，但是这个地方导入不了2.1.1.RELEASE-->
+        <!--github上推荐的毕业版本依赖关系中Greenwich.M1对应2.1.1.RELEASE，但是这个地方导入不了2.1.1.RELEASE-->
+        <spring-cloud-alibaba.version>0.2.2.RELEASE</spring-cloud-alibaba.version>
     </properties>
 
     <parent>

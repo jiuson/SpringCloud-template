@@ -1,4 +1,4 @@
-package com.yipinketang.stream.rocketmq.producer.sourceProducer;
+package com.jiuson.stream.rocketmq.producer.sourceProducer;
 
 import org.apache.rocketmq.common.message.MessageConst;
 import org.springframework.beans.factory.annotation.Autowired;
