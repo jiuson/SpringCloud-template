@@ -1,0 +1,142 @@
+2019-12-08 11:39:28,724 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 11:39:28,728 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 11:43:13,317 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 11:43:13,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 11:43:35,604 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 11:43:35,604 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 15:12:49,987 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:12:49,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 15:18:39,547 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:18:39,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 15:18:56,526 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:18:56,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 15:19:26,886 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:19:26,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 15:21:05,098 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:21:05,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 15:21:57,369 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:21:57,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 15:22:52,926 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:22:52,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 15:24:17,736 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:24:17,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 15:25:04,224 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:25:04,224 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 15:25:34,386 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 15:25:34,386 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:24:34,049 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:24:34,049 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:25:10,147 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:25:10,147 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:29:58,914 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:29:58,914 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:30:44,240 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:30:44,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:34:48,111 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:34:48,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:35:20,926 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:35:20,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:37:53,949 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:10080@DEFAULT@DEFAULT_GROUP@@resource-provide-service, region: unknown, msg: client timeout after 15000, last beat: 1575794257580
+
+2019-12-08 16:38:09,104 INFO service: DEFAULT_GROUP@@resource-provide-service {POS} {IP-ENABLED} valid: 192.168.88.92:10080@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-08 16:38:09,308 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:38:09,308 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:38:14,100 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:38:14,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:39:14,310 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:10080@DEFAULT@DEFAULT_GROUP@@resource-provide-service, region: unknown, msg: client timeout after 15000, last beat: 1575794337426
+
+2019-12-08 16:39:27,974 INFO service: DEFAULT_GROUP@@resource-provide-service {POS} {IP-ENABLED} valid: 192.168.88.92:10080@DEFAULT, region: unknown, msg: client beat ok
+
+2019-12-08 16:39:54,317 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:10080@DEFAULT@DEFAULT_GROUP@@resource-provide-service, region: unknown, msg: client timeout after 15000, last beat: 1575794374889
+
+2019-12-08 16:40:09,325 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-08 16:40:09,325 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:40:12,255 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:40:12,255 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 16:40:12,292 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:40:12,292 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 16:49:21,885 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 16:49:21,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 17:30:11,309 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 17:30:11,309 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 17:37:07,559 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 17:37:07,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 17:50:38,669 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 17:50:38,669 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 20:50:06,782 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 20:50:06,782 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 20:58:19,198 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 20:58:19,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 20:58:56,794 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 20:58:56,794 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+
+2019-12-08 21:08:55,957 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 21:08:55,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 
+
+2019-12-08 21:09:21,170 INFO DEFAULT_GROUP@@resource-provide-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:10080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-08 21:09:21,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@resource-provide-service, ips: 192.168.88.92:10080_true,
+

@@ -1,0 +1,34 @@
+2019-12-13 10:45:47,154 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-13 10:45:47,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.88.92:8020_true,
+
+2019-12-13 10:46:52,070 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:8020@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1576205192216
+
+2019-12-13 10:47:07,292 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-13 10:47:07,292 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2019-12-13 10:49:31,124 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-13 10:49:31,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.88.92:8020_true,
+
+2019-12-13 10:49:31,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.88.92:8020_true,
+
+2019-12-13 11:30:01,195 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.88.92:8020_true,
+
+2019-12-13 11:48:16,598 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:8020@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1576208880738
+
+2019-12-13 11:48:31,602 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-13 11:48:31,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+
+2019-12-13 15:18:57,728 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-12-13 15:18:57,729 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 192.168.88.92:8020_true,
+
+2019-12-13 15:20:23,787 INFO {POS} {IP-DISABLED} valid: 192.168.88.92:8020@DEFAULT@DEFAULT_GROUP@@provider-service, region: unknown, msg: client timeout after 15000, last beat: 1576221607873
+
+2019-12-13 15:20:38,803 INFO DEFAULT_GROUP@@provider-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.88.92:8020:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-12-13 15:20:38,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@provider-service, ips: 
+

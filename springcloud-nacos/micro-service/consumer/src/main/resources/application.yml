@@ -1,0 +1,30 @@
+####服务启动端口号
+server:
+  port: 8040
+#  port: ${consumer.service.port}
+spring:
+  ####启动加载配置文件
+  #profiles: peer1
+  application:
+    ####当前应用服务的名称
+    name: consumer-service
+  sleuth:
+    sampler:
+      #链路追踪采样率
+      probability: 1
+  zipkin:
+    #Zipkin监控地址
+    base-url: http://127.0.0.1:9000
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+ribbon:
+  ####指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  ####指的是建立连接后从服务器读取到可用资源的时间
+  ConnectTimeout: 5000
+####开启Hystrix断路器
+fegin:
+  hystrix:
+    enable: true

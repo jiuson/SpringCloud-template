@@ -1,0 +1,57 @@
+server:
+  port: 8000
+#  port: ${zuulGateway.server.port}
+spring:
+  application:
+    name: zuul-gateway
+  sleuth:
+    sampler:
+      #链路追踪采样率
+      probability: 1
+  zipkin:
+    #Zipkin监控地址
+    base-url: http://127.0.0.1:9000
+eureka:
+  client:
+    serviceUrl:
+      ####注册中心地址(单节点)
+      defaultZone: http://127.0.0.1:8010/eureka/
+#      defaultZone: http://${eureka.instance.host}:${eureka.server.port}/eureka/
+      ####注册中心地址(集群，填写其他节点地址，这里需要注意的是，即时写了集群注册中心的多个地址，默认只会在第一个地址对应的注册中心的web页面看到这个服务，
+      ####因为集群注册中心共享同一份服务列表，但是同时只有一个注册中心监控该服务，所以使用单点注册配置即可)
+      #defaultZone: http://${eureka.instance.hostname}:8762/eureka/
+    ####将自己注册到注册中心 ,默认为true，所以eureka client端可以不设置此参数
+    registerWithEureka: true
+    ####获取eureka注册中心上的服务列表，默认为true（同上面的属性一起一起使用）
+    fetchRegistry: true
+zuul:
+  #关闭所有默认路由配置规则
+  ignored-services: *
+  #前缀配置：为网关的请求路径添加前缀
+  prefix: /zuul-gateway
+  #将下面的参数配置为空，代表关闭所有服务默认头部敏感信息过滤（原因：Zuul默认会过滤掉HTTP请求头中的一些铭感信息）
+  sensitive-headers:
+  #解决重定向问题
+  add-host-header: true
+  #线程隔离策略
+  ribbon-isolation-strategy: thread
+  #路由配置规则
+  routes:
+    api-provider:
+      #路由规则，所有以/api-provider/为前缀的请求都会路由到名称为provider-service的服务
+      path: /api-provider/**
+      #根据微服务名称路由发现指定服务
+      serviceId: provider-service
+      #将sensitive-headers配置在某个指定的路由规则下面，代表只关闭某个指定路由的HTTP请求头过滤
+      sensitive-headers:
+#      url: http://127.0.0.1:8010
+    api-provider_1:
+      path: /api-provider1/**
+      serviceId: provider_1-service
+    api-consumer:
+      path: /api-consumer/**
+      serviceId: consumer-service
+    api-gateway_self:
+      path: /api-gateway/**
+      #本地跳转：将请求跳转到网关服务本身
+      url: forward:/test

@@ -1,0 +1,22 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: redis
+#  redis:
+#    #Redis服务器地址
+#    host: localhost
+#    #Redis服务器连接端口
+#    port: 6379
+#    #连接超时时间（毫秒）
+#    timeout: 1000
+#    #Redis数据库索引（默认为0）
+#    database: 0
+#    #Redis服务器连接密码（默认无）
+#    password:
+#    ###########主从配置###########
+#    sentinel:
+#      #哨兵监听的Redis server的名称
+#      master: mymaster
+#      #哨兵的配置列表
+#      nodes: 127.0.0.1:6379,127.0.0.1:6378,127.0.0.1:6377

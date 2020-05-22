@@ -1,0 +1,15 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: zipkin-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8849
+management:
+  metrics:
+    web:
+      server:
+        #zipkin启动报错无法访问的问题
+        auto-time-requests: false
